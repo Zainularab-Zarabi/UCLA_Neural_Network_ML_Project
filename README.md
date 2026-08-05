@@ -6,7 +6,7 @@ The original Jupyter Notebook was reorganized into reusable Python modules, auto
 
 ### Project Links
 
-- [Live Streamlit Application](PASTE_STREAMLIT_LINK_HERE)
+- [Live Streamlit Application]([Click here for Streamlit app](https://uclaneuralnetworkmlproject-kqqqwacfld3havacctgyjv.streamlit.app/))
 
 ### Project Overview
 
