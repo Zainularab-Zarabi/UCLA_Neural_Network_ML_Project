@@ -214,13 +214,19 @@ def main() -> None:
             st.error("Something went wrong while making the prediction.")
 
     st.header("Project Limitations")
-    st.write(
-        "The dataset has 500 records and the positive class is smaller than the "
-        "negative class. The original MLP reached the maximum 200 iterations "
-        "without full convergence, so the results should be treated as a learning "
-        "project rather than a final admission decision system."
-    )
+    st.warning(
+    """
+    This application is an educational machine-learning project and should not be
+    used to make real university admission decisions.
 
+    The model was trained on only 500 historical records and does not include all
+    factors considered by universities. The original admission chance was also
+    converted into two classes using a fixed 0.80 threshold.
+
+    A predicted probability represents the model's confidence in its classification.
+    It is not the student's actual probability of admission.
+    """
+)
 
 if __name__ == "__main__":
     main()
